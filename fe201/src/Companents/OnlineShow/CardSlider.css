@@ -1,0 +1,52 @@
+.cards-container{
+    display: flex;
+    margin: 100px 200px;
+}
+
+
+.cards-container .cols-4{
+ width: 250px;
+ border-radius: 5px;
+}
+
+.cards-container .card:hover{
+    transform: scale(1.2);
+}
+
+.cards-container .card{
+    background-color:white;
+    box-shadow: 2px 2px 2px whitesmoke;
+    margin: 0 auto;
+    transition: transform 0.3s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+   font-family: monospace;
+   font-size: 20px;
+   
+}
+
+.cards-container .card .bg-color{
+    padding: 20px;
+}
+
+
+.cards-container .card button {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 160px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;   
+}
+
+
+.cards-container .card button svg{
+    padding: 7px;
+}
